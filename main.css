@@ -1,0 +1,82 @@
+body {
+    background-image: url(/images/bg-doh.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 175%;
+}
+
+.card-deck {
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+
+.content {
+    text-align: center;
+    padding: 20px;
+}
+
+.carousel-indicators li {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+}
+
+.mid-item-bg {
+    background-color: rgba(101, 167, 229, 0.4);
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+.spotlight-image {
+    display: inline-block;
+}
+
+.statistic-img {
+    display: block;
+}
+
+.bf-img {
+    width: 100%;
+}
+
+.bottom-nav-bg {
+    background-color: #28a745;
+}
+
+.bottom-nav-bg h5 {
+    color: black;
+}
+
+.bottom-nav-bg p {
+    color: black;
+}
+
+#bottom-nav-bg a {
+    color: white;
+    z-index: -1000;
+}
+
+#bottom-nav-bg a:hover {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.dropdown:hover>.dropdown-menu {
+    display: block;
+}
+
+@media (max-width: 767.98px) {
+    .carousel {
+        display: none;
+    }
+}

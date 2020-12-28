@@ -1,0 +1,16 @@
+body {
+    /* background-image: url(images/doh-logo.png); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    align-items: center;
+}
+
+.sublogo {
+    align-items: center;
+    text-align: center;
+}
